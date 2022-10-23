@@ -5,8 +5,8 @@ import "./Speakers.css"
 function Speakers() {
 
   return (
-    <div className="Speakers" id="Speakers">
-
+    <div className="speakers" id="speakers">
+      speaker
     </div>
   )
 }

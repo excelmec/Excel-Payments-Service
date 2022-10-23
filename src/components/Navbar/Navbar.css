@@ -57,7 +57,18 @@ a {
   display: none;
 }
 
-.avatarIcon {
+.nav_btn {
+  outline: none;
+  padding: 10px 15px;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+  border-radius: 10px;
+  text-align: center;
+  background: transparent;
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1rem;
   cursor: pointer;
 }
 

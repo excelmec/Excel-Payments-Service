@@ -9,7 +9,7 @@ function LandingPage() {
     <div className="landingPage">
       {/* NAVBAR */}
       <Landing />
-      <About />
+      {/* <About /> */}
       <Speakers />
       <Schedule />
       <Sponsors />

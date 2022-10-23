@@ -21,7 +21,7 @@ function Navbar() {
   const scrollPosition = useScrollPosition()
 
   const navStyle = {
-    background: scrollPosition > 300 ? "#522888" : "rgba(82, 40, 136, 0.1)",
+    background: scrollPosition > 300 ? "#111111" : "rgba(17, 17, 17, 0.1)",
     boxShadow:
       scrollPosition > 200 ? "0px 2px 9px rgba(0, 0, 0, 0.11)" : "none",
   }
@@ -71,9 +71,11 @@ function Navbar() {
             to="/#contact"
             className="nav__link"
           >
-            Contacts Us
+            Contact Us
           </NavLink>
         </div>
+
+        <button className="nav_btn">Register</button>
 
         <div className="nav_hamburger" onClick={handleDrawerOpen}>
           <IoMenu className="nam_menu_icon" />
