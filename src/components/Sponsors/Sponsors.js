@@ -8,11 +8,11 @@ function Sponsors() {
   return (
     <div className='sponsors' id="sponsors">
       <div className="sponsors_container">
-        <h1 className="section__title">Sponsors</h1>
+        <h1 className="section__title" data-aos="fade-up">Sponsors</h1>
 
         <div className="sponsors_section">
           {sponsorsData.map((sponsor) => (
-            <a href={sponsor.url} key={sponsor.id} className="sponsor_details">
+            <a href={sponsor.url} key={sponsor.id} className="sponsor_details" data-aos="fade-up">
               <img src={sponsor.logo} alt="" />
               <h2>{sponsor.name}</h2>
             </a>

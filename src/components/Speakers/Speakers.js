@@ -10,7 +10,7 @@ function Speakers() {
   return (
     <div className="speakers" id="speakers">
       <div className="speakers_container">
-        <h1 className="section__title">Our Speakers</h1>
+        <h1 className="section__title" data-aos="fade-up">Our Speakers</h1>
 
         <div className="speakers_section">
           {speakersData.map((speaker) => (

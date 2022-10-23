@@ -3,7 +3,7 @@ import { FaLinkedinIn, FaRegEnvelope, FaPhoneAlt } from "react-icons/fa";
 
 function ContactCard({ name, designation, image, email, phone, linkedIn }) {
   return (
-    <div className="contactCard">
+    <div className="contactCard" data-aos="fade-up">
       <div className="contact_img">
         <img src={image} alt="contactimg" />
       </div>

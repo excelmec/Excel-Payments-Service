@@ -104,6 +104,8 @@ function Navbar() {
           </div>
           <div className="navbar__mobcontents">
             <NavLink
+              data-aos="fade-right"
+              data-aos-duration="200"
               to="/#home"
               onClick={handleDrawerClose}
               className="navmob__link"
@@ -111,6 +113,8 @@ function Navbar() {
               Home
             </NavLink>
             <NavLink
+              data-aos="fade-right"
+              data-aos-duration="400"
               to="/#about"
               onClick={handleDrawerClose}
               className="navmob__link"
@@ -118,6 +122,8 @@ function Navbar() {
               About
             </NavLink>
             <NavLink
+              data-aos="fade-right"
+              data-aos-duration="600"
               to="/#speakers"
               onClick={handleDrawerClose}
               className="navmob__link"
@@ -125,6 +131,8 @@ function Navbar() {
               Speakers
             </NavLink>
             <NavLink
+              data-aos="fade-right"
+              data-aos-duration="800"
               to="/#panelists"
               onClick={handleDrawerClose}
               className="navmob__link"
@@ -132,6 +140,8 @@ function Navbar() {
               Panelists
             </NavLink>
             <NavLink
+              data-aos="fade-right"
+              data-aos-duration="1000"
               to="/#schedule"
               onClick={handleDrawerClose}
               className="navmob__link"
@@ -139,6 +149,8 @@ function Navbar() {
               Schedule
             </NavLink>
             <NavLink
+              data-aos="fade-right"
+              data-aos-duration="1200"
               to="/#sponsors"
               onClick={handleDrawerClose}
               className="navmob__link"
@@ -146,6 +158,8 @@ function Navbar() {
               Sponsors
             </NavLink>
             <NavLink
+              data-aos="fade-right"
+              data-aos-duration="1400"
               to="/#contact"
               onClick={handleDrawerClose}
               className="navmob__link"

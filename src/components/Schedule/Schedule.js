@@ -52,8 +52,8 @@ function Schedule() {
   return (
     <div className='schedule' id="schedule">
       <div className="schedule_container">
-        <h1 className="section__title">Schedule</h1>
-        <div className="schedule_section">
+        <h1 className="section__title" data-aos="fade-up">Schedule</h1>
+        <div className="schedule_section" data-aos="fade-up">
           <Timeline lineColor="#FFCD00" lineStyle={lineStyle}>
             {scheduleData.map((schedule) => (
               <TimelineEvent 

@@ -3,7 +3,7 @@ import { FaLinkedinIn } from 'react-icons/fa'
 
 function SpeakerCard({ name, image, designation, linkedin }) {
   return (
-    <div className='speakerCard'>
+    <div className='speakerCard' data-aos="fade-up">
       <div className='speakerCard__photo'>
         <div className='speakerCard__overlay' />
         <img src={image} alt="" className='scp__img'/>

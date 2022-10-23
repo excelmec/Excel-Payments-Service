@@ -3,7 +3,7 @@ import React from 'react'
 
 function PanelistsCard({ name, image, designation, linkedin, id }) {
   return (
-    <div className={`${id%2 !== 0 ? 'panelistsCard' : 'panelistsCard row_rev'}`}>
+    <div className={`${id%2 !== 0 ? 'panelistsCard' : 'panelistsCard row_rev'}`} data-aos="fade-up">
       <div className='panelistsCard__photo'>
         <img src={image} alt="" className='plp__img'/>
       </div>

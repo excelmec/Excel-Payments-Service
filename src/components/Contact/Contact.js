@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <div className="contact" id="contact">
       <div className="contact__container">
-        <h1 className="section__title">Contact Us</h1>
+        <h1 className="section__title" data-aos="fade-up">Contact Us</h1>
         <div className="contact__cards">
           {contactsData.map((contact) => (
             <ContactCard

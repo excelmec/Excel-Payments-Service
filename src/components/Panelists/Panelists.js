@@ -10,7 +10,7 @@ function Panelists() {
   return (
     <div className="panelists" id="panelists">
       <div className="panelists_container">
-        <h1 className="section__title">Our Panelists</h1>
+        <h1 className="section__title" data-aos="fade-up">Our Panelists</h1>
 
         <div className="panelists_section">
           {panelistsData.map((speaker) => (
