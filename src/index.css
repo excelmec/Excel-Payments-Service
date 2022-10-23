@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -5,11 +7,11 @@
   
 /* VARIABLES */
 :root {
-    /* --primary-font: 'Raleway', sans-serif;
-    --secondary-font: 'Work Sans', sans-serif;
+    --primary-font: 'Rubik', sans-serif;
+    /* --secondary-font: 'Work Sans', sans-serif; */
     --bg-color: #E6F4F4;
-    --primary-color: #0B8B8B;
-    --secondary-color: #86CECE;
-    --text-main: #333333; */
+    --primary-color: #522888;
+    --secondary-color: #FFCD00;
+    --text-main: #333333;
 }
   

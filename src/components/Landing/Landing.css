@@ -1,4 +1,67 @@
 .landing {
   height: 100vh;
-  background-color: blue;
+  background-image: url("../../assets/png/desktop_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.landing__container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+}
+
+.landing__left {
+  flex: 0.7;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.landing__header {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4rem;
+  color: #FFFFFF;
+}
+
+.landing__btn {
+  outline: none;
+  padding: 12px 25px;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+  border-radius: 10px;
+  text-align: center;
+  background: transparent;
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.15rem;
+  cursor: pointer;
+}
+
+.landing__right {
+  flex: 0.3;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4rem;  
+  color: #FFFFFF;
+  opacity: 0.3;
+  transform: rotate(-90deg);
+  margin-top: 2rem;
 }

@@ -5,6 +5,7 @@ import { NavHashLink as NavLink } from "react-router-hash-link"
 import { useScrollPosition } from "../../hooks/useScrollPosition"
 
 import "./Navbar.css"
+import finnextLogo from "../../assets/logo/FinNext.png"
 
 function Navbar() {
   const [drawer, setDrawer] = useState(false)
@@ -20,7 +21,7 @@ function Navbar() {
   const scrollPosition = useScrollPosition()
 
   const navStyle = {
-    background: scrollPosition > 200 ? "#04005e" : "transparent",
+    background: scrollPosition > 300 ? "#522888" : "rgba(82, 40, 136, 0.1)",
     boxShadow:
       scrollPosition > 200 ? "0px 2px 9px rgba(0, 0, 0, 0.11)" : "none",
   }
@@ -32,10 +33,16 @@ function Navbar() {
         <NavLink
             to="/#"
           >
-          <img src=""alt="" />
+          <img src={finnextLogo} alt="" />
           </NavLink>
         </div>
         <div className="nav_contents">
+          <NavLink
+            to="/#home"
+            className="nav__link"
+          >
+            Home
+          </NavLink>
           <NavLink
             to="/#about"
             className="nav__link"
@@ -43,31 +50,25 @@ function Navbar() {
             About
           </NavLink>
           <NavLink
-            to="/#highlights"
+            to="/#speakers"
             className="nav__link"
           >
-            Highlights
+            Speakers
           </NavLink>
           <NavLink
-            to="/#timeline"
+            to="/#schedule"
             className="nav__link"
           >
-            Timeline
+            Schedule
           </NavLink>
           <NavLink
-            to="/#partners"
+            to="/#sponsors"
             className="nav__link"
           >
-            Participating Organizations
+            Sponsors
           </NavLink>
           <NavLink
-            to="/#organizations"
-            className="nav__link"
-          >
-            Organized by
-          </NavLink>
-          <NavLink
-            to="/#team"
+            to="/#contact"
             className="nav__link"
           >
             Contacts Us
