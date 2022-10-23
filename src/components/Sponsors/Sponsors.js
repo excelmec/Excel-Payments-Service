@@ -6,7 +6,7 @@ import { sponsorsData } from '../../data/sponsorsData'
 
 function Sponsors() {
   return (
-    <div className='sponsors'>
+    <div className='sponsors' id="sponsors">
       <div className="sponsors_container">
         <h1 className="section__title">Sponsors</h1>
 

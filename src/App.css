@@ -31,4 +31,8 @@
     left: 50%; 
     width: 30%;
 }
+
+.yellow {
+    color: var(--secondary-color) !important;
+}
   

@@ -33,7 +33,7 @@ function Landing() {
 
   return (
     
-    <div className="landing">
+    <div className="landing" id="home">
       <div className="landing__container">      
         <div className="landing__left">
           <h2 className="landing__header">Explore Finance,<br /> Tech and Beyond</h2>
@@ -60,7 +60,7 @@ function Landing() {
               <h2>{timeLeft.seconds}</h2>
               <h4>SECONDS</h4>
             </div>
-          </div>
+      </div>
     </div>
     
   )
