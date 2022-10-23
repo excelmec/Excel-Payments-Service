@@ -56,6 +56,12 @@ function Navbar() {
             Speakers
           </NavLink>
           <NavLink
+            to="/#panelists"
+            className="nav__link"
+          >
+            Panelists
+          </NavLink>
+          <NavLink
             to="/#schedule"
             className="nav__link"
           >

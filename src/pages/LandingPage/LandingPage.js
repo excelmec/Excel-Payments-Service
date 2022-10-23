@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Landing, About, Speakers, Sponsors, Contact, Schedule } from '../../components'
+import { Landing, About, Speakers, Panelists, Sponsors, Contact, Schedule } from '../../components'
 
 import './LandingPage.css'
 
@@ -11,6 +11,7 @@ function LandingPage() {
       <Landing />
       <About />
       <Speakers />
+      <Panelists />
       <Schedule />
       <Sponsors />
       <Contact />

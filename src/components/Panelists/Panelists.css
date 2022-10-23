@@ -1,0 +1,70 @@
+.panelists {
+  padding: 2rem 0;
+}
+
+.panelists_container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.panelists_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2.5rem;
+  margin-top: 2rem;
+}
+
+
+
+.panelistsCard {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--primary-font);
+  color: var(--primary-color);
+  /* width: 300px; */
+}
+
+.panelistsCard__photo {
+  height: 230px;
+  width: 200px;
+  transition: ease 0.5s;
+  position: relative;
+}
+
+
+.plp__img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.panel__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #ffffff;
+  box-shadow: 50px 40px 115px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 400px;
+  transform: translateX(-40px);
+  z-index: 9;
+  border-radius: 5px;
+}
+
+.panel__content h2 {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+}
+
+.panel__content p {
+  font-size: 1.05rem;
+}
