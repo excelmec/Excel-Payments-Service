@@ -8,7 +8,7 @@ import mec_logo from "../../assets/logo/mec_logo.png"
 
 const Footer = () => {
   return (
-    <div id="footer">
+    <div className="footer">
       <div className="container footer__main">
         <div className="footer-social">
           <div className="footer-social-college">

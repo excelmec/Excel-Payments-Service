@@ -11,7 +11,7 @@ function LandingPage() {
       <Landing />
       {/* <About /> */}
       <Speakers />
-      <Schedule />
+      {/* <Schedule /> */}
       <Sponsors />
       <Contact />
       {/* FOOTER */}

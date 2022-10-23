@@ -9,7 +9,7 @@ export const speakersData = [
     {
         id: 2,
         name: 'Aadhil Farhan',
-        designation: 'Meyn aanu ser',
+        designation: 'Co-Founder and Managing Partner of MEYN Inc.',
         image: 'https://images.unsplash.com/photo-1577922163181-1b7cf27b6ca1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=445&q=80',
         linkedin: 'https://linkedin.com/in/'
     },

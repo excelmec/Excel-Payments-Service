@@ -18,17 +18,17 @@
 .section__title:after, .section__title:before {
     position: absolute;
     left: 0;
-    bottom: -5px;
-    width: 60px;
+    bottom: -8px;
+    width: 30%;
     height: 4px;
     content: "";
-    right: 60px; 
+    right: 30%; 
     margin: auto;
     background-color: var(--primary-color);
   }
 .section__title:before { 
     background-color: var(--secondary-color);
-    left: 60px; 
-    width: 120px;
+    left: 50%; 
+    width: 30%;
 }
   
