@@ -21,6 +21,7 @@
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
+  margin-top: 2rem;
 }
 
 .speakerCard {
@@ -35,13 +36,76 @@
 .speakerCard__photo {
   height: 350px;
   width: 300px;
+  transition: ease 0.5s;
+  position: relative;
 }
 
-.speakerCard__photo img {
+.speakerCard__overlay {
+  position: absolute;
+  background: rgb(255,205,0);
+  background: linear-gradient(90deg, rgba(255,205,0,1) 0%, rgba(17,17,17,1) 100%);
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.speaker_icon_div {
+  background-color: var(--primary-color);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+}
+
+.speaker_icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+  box-sizing: content-box;
+  color: var(--secondary-color);
+}
+
+.speakerCard__photo:hover .speakerCard__overlay {
+  opacity: 0.8;
+}
+
+.speakerCard__content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.speakerCard__photo:hover .speakerCard__content {
+  opacity: 1;
+}
+
+.scp__img {
   height: 100%;
   width: 100%;
   /* object-fit: cover; */
 }
+
+
 
 .speakerCard h2 {
   margin-top: 1rem;
