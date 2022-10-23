@@ -33,6 +33,10 @@
   /* width: 300px; */
 }
 
+.row_rev {
+  flex-direction: row-reverse;
+}
+
 .panelistsCard__photo {
   height: 230px;
   width: 200px;
@@ -55,16 +59,80 @@
   box-shadow: 50px 40px 115px rgba(0, 0, 0, 0.1);
   padding: 2rem;
   width: 400px;
-  transform: translateX(-40px);
   z-index: 9;
   border-radius: 5px;
 }
 
+.transLeft {
+  transform: translateX(-40px);
+}
+.transRight {
+  transform: translateX(40px);
+}
+
 .panel__content h2 {
-  margin-top: 1rem;
   font-size: 1.25rem;
 }
 
 .panel__content p {
   font-size: 1.05rem;
+}
+
+
+@media only screen and (max-width: 1200px) and (max-height: 700px) { 
+
+}
+
+@media only screen and (max-width: 1300px) {
+  .panelists_container {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 1100px) {
+  .panel__content {
+    padding: 2rem;
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .panelists_container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .panel__content {
+    padding: 2rem;
+    width: 300px;
+  }
+  .panelists_section {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .panelistsCard {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .panel__content {
+    padding: 1rem;
+    width: 200px;
+    border-radius: 0 0 5px 5px;
+  }
+
+  .transLeft, .transRight {
+    transform: translateX(0);
+  }
+}
+
+@media screen and (max-width: 400px) {
+
 }

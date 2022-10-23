@@ -116,3 +116,41 @@
   font-size: 1.05rem;
   text-align: center;
 }
+
+
+
+@media only screen and (max-width: 1200px) and (max-height: 700px) { 
+
+}
+
+@media only screen and (max-width: 1300px) {
+  .speakers_container {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 1100px) {
+
+}
+
+@media screen and (max-width: 992px) {
+  .speakers_container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+}
+
+@media screen and (max-width: 600px) {
+
+}
+
+@media screen and (max-width: 400px) {
+
+}

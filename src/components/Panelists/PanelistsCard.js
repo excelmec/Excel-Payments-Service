@@ -3,11 +3,11 @@ import React from 'react'
 
 function PanelistsCard({ name, image, designation, linkedin, id }) {
   return (
-    <div className='panelistsCard' style={{ flexDirection: id%2 !== 0 ? 'row' : 'row-reverse'}}>
+    <div className={`${id%2 !== 0 ? 'panelistsCard' : 'panelistsCard row_rev'}`}>
       <div className='panelistsCard__photo'>
         <img src={image} alt="" className='plp__img'/>
       </div>
-      <div className='panel__content' style={{ transform: id%2 !== 0 ? 'translateX(-40px)' : 'translateX(40px)'}}>
+      <div className={`${id%2 !== 0 ? 'panel__content transLeft' : 'panel__content transRight'}`} >
         <h2>{name}</h2>
         <p>{designation}</p>
       </div>

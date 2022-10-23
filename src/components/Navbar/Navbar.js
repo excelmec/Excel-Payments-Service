@@ -104,6 +104,13 @@ function Navbar() {
           </div>
           <div className="navbar__mobcontents">
             <NavLink
+              to="/#home"
+              onClick={handleDrawerClose}
+              className="navmob__link"
+            >
+              Home
+            </NavLink>
+            <NavLink
               to="/#about"
               onClick={handleDrawerClose}
               className="navmob__link"
@@ -111,35 +118,35 @@ function Navbar() {
               About
             </NavLink>
             <NavLink
-              to="/#highlights"
+              to="/#speakers"
               onClick={handleDrawerClose}
               className="navmob__link"
             >
-              Highlights
+              Speakers
             </NavLink>
             <NavLink
-              to="/#timeline"
+              to="/#panelists"
               onClick={handleDrawerClose}
               className="navmob__link"
             >
-              Timeline
+              Panelists
             </NavLink>
             <NavLink
-              to="/#partners"
+              to="/#schedule"
               onClick={handleDrawerClose}
               className="navmob__link"
             >
-              Participating Organizations
+              Schedule
             </NavLink>
             <NavLink
-              to="/#organizations"
+              to="/#sponsors"
               onClick={handleDrawerClose}
               className="navmob__link"
             >
-              Organized by
+              Sponsors
             </NavLink>
             <NavLink
-              to="/#team"
+              to="/#contact"
               onClick={handleDrawerClose}
               className="navmob__link"
             >
