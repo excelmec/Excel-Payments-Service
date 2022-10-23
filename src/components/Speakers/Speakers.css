@@ -1,3 +1,52 @@
 .speakers {
-  height: 100vh;
+  min-height: 100vh;
+  padding: 4rem 0;
+}
+
+.speakers_container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.speakers_section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.speakerCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--primary-font);
+  color: var(--primary-color);
+}
+
+.speakerCard__photo {
+  height: 350px;
+  width: 300px;
+}
+
+.speakerCard__photo img {
+  height: 100%;
+  width: 100%;
+  /* object-fit: cover; */
+}
+
+.speakerCard h2 {
+  margin-top: 1rem;
+}
+
+.speakerCard h6 {
+
 }

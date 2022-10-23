@@ -1,8 +1,9 @@
 import { Suspense } from 'react'
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import './App.css';
 import { Navbar, Footer, Loader } from "./components";
 import { LandingPage } from './pages'
+
+import './App.css';
 
 function App() {
   return (
