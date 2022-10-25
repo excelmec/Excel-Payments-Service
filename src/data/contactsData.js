@@ -22,7 +22,7 @@ export const contactsData = [
   },
   {
     id: 3,
-    name: "Anjali",
+    name: "Anjali Rajendran",
     designation: "Marketing Manager",
     image: anjali,
     phone: "",
