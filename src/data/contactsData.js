@@ -1,4 +1,5 @@
 import aadhil from "../assets/jpg/aadhil.jpeg";
+import anjali from "../assets/jpg/anjali.jpeg";
 
 export const contactsData = [
   {
@@ -21,9 +22,9 @@ export const contactsData = [
   },
   {
     id: 3,
-    name: "Sebin Davis",
-    designation: "Joint Secretary",
-    image: aadhil,
+    name: "Anjali",
+    designation: "Marketing Manager",
+    image: anjali,
     phone: "",
     email: "sebindavis.mec@gmail.com",
     linkedIn: "https://www.linkedin.com/in/sebin-davis-344782195",
