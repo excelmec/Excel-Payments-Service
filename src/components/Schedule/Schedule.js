@@ -42,6 +42,12 @@ function Schedule() {
     fontWeight: 600,
     color: '#111111'
   }
+  const subtitleStyle = {
+    fontSize: '0.8rem',
+    fontFamily: "'Rubik', sans-serif",
+    fontWeight: 300,
+    color: '#111111'
+  }
 
   const cardHeaderStyle = {
     fontSize: '1rem',
@@ -59,11 +65,12 @@ function Schedule() {
               <TimelineEvent 
                 key={schedule.id}
                 title={schedule.title}
-                createdAt={schedule.time}
+                subtitle={schedule.time}
                 bubbleStyle={bubbleStyle}
                 style={timelineStyle}
                 contentStyle={contentStyle}
                 titleStyle={titleStyle}
+                subtitleStyle={subtitleStyle}
                 cardHeaderStyle={cardHeaderStyle}
               >
                 {schedule.description}
