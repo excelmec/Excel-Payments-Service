@@ -1,0 +1,12 @@
+.startup_deets img {
+    width: 150px;
+    cursor: pointer;
+}
+
+.startup_deets h2 {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    margin-top: 1rem;
+    font-size: 1 rem;
+    text-align: center;
+}
