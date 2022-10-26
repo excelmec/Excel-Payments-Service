@@ -1,16 +1,19 @@
+import LijilLakshman from "../assets/images/LijilLakshman.jpg";
+import AsifBasheer from "../assets/images/AsifBasheer.png";
+
 export const speakersData = [
     {
         id: 1,
         name: 'Lijil Lakshman',
         designation: 'Meyn aanu ser',
-        image: 'https://images.unsplash.com/photo-1570563676231-d476637bc4bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80',
+        image: LijilLakshman,
         linkedin: 'https://www.linkedin.com/in/calijillakshman/'
     },
     {
         id: 2,
         name: 'Asif Basheer',
         designation: 'MD, Chillar Payment Solutions Pvt Ltd',
-        image: 'https://images.unsplash.com/photo-1577922163181-1b7cf27b6ca1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=445&q=80',
+        image: AsifBasheer,
         linkedin: 'https://www.linkedin.com/in/asif-basheer-319159a/'
     },
     // {
