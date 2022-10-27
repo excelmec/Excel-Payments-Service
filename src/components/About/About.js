@@ -1,5 +1,5 @@
 import React from "react"
-import { FiMapPin, FiCalendar } from "react-icons/fi";
+import { FiMapPin, FiCalendar, FiClock } from "react-icons/fi";
 
 import "./About.css"
 
@@ -13,7 +13,11 @@ function About() {
         </div>
         <div className="hero_card" data-aos="fade-up">
           <FiCalendar className="hero_card_icon"/>
-          <h5>9 November, 2022</h5>
+          <h5>6 November, 2022</h5>
+        </div>
+        <div className="hero_card" data-aos="fade-up">
+          <FiClock className="hero_card_icon"/>
+          <h5>10:00 AM</h5>
         </div>
       </div>
       <div className="about__container"  id="about">

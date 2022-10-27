@@ -79,10 +79,11 @@
     color: var(--primary-color);
     opacity: 0.85;
     text-align: center;
+    margin-top: 0.35rem;
 }
 
 .contact_social {
-    margin-top: 1.25rem;
+    margin-top: auto;
     display: flex;
     align-items: center;
     justify-content: center;

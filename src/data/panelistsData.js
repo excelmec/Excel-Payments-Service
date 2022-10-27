@@ -13,7 +13,7 @@ export const panelistsData = [
     {
         id: 2,
         name: 'Sanjay Das',
-        designation: 'Founder at QuickPay',
+        designation: 'Founder, QuickPay',
         image: SanjayDas,
         linkedin: 'https://www.linkedin.com/in/sanjay-das-649954b5/'
     },
