@@ -78,6 +78,7 @@
     text-transform: capitalize;
     color: var(--primary-color);
     opacity: 0.85;
+    text-align: center;
 }
 
 .contact_social {

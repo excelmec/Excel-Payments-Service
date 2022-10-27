@@ -1,11 +1,11 @@
 import LijilLakshman from "../assets/images/LijilLakshman.jpg";
-import AsifBasheer from "../assets/images/AsifBasheer.png";
+import AsifBasheer from "../assets/images/AsifBasheer.jpeg";
 
 export const speakersData = [
     {
         id: 1,
-        name: 'Lijil Lakshman',
-        designation: 'Meyn aanu ser',
+        name: 'CA Lijil Lakshman',
+        designation: 'Co-Founder and Managing Partner, LDS & Co',
         image: LijilLakshman,
         linkedin: 'https://www.linkedin.com/in/calijillakshman/'
     },

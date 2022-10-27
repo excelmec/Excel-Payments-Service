@@ -1,6 +1,6 @@
-import RobertShahAntony from "../assets/images/RobertShahAntony.png";
+import RobertShahAntony from "../assets/images/RobertShahAntony.jpeg";
 import SanjayDas from "../assets/images/SanjayDas.png";
-import AsifBasheer from "../assets/images/AsifBasheer.png";
+import AsifBasheer from "../assets/images/AsifBasheer.jpeg";
 
 export const panelistsData = [
     {
@@ -20,7 +20,7 @@ export const panelistsData = [
     {
         id: 3,
         name: 'Asif Basheer',
-        designation: 'Meyn aanu ser',
+        designation: 'MD, Chillar Payment Solutions Pvt Ltd',
         image: AsifBasheer,
         linkedin: 'https://www.linkedin.com/in/asif-basheer-319159a/'
     },
