@@ -1,12 +1,12 @@
 import React from 'react'
-import MoonLoader from "react-spinners/ScaleLoader";
+import MoonLoader from "react-spinners/MoonLoader";
 
 import './Loader.css'
 
 function Loader() {
   return (
     <div className='loader'>
-      <MoonLoader color="#FFCD00" loading={true} size={150} />
+      <MoonLoader color="#FFCD00" loading={true} size={100} />
     </div>
   )
 }
