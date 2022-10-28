@@ -1,5 +1,5 @@
 import React from 'react'
-import './TnC.css'
+import '../pages.css'
 
 function TnC() {
   return (
