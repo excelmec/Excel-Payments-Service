@@ -19,11 +19,32 @@
   padding: 2.5rem 0 1rem 0;
 }
 
+.footer_nav {
+  display: flex;
+  padding: 1rem;
+  width: 45%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-family: var(--primary-font);
+  color: #ffffff;
+  gap: 1.5rem;
+  text-decoration: none;
+}
+
 .contact_social_icon {
   font-size: 1.25rem;
 }
 
 @media only screen and (max-width: 768px) {
+  .footer_nav {
+    width: 60%;
+    font-size: 1rem
+  }
+
   .footer-social {
     flex-direction: column;
     gap: 3rem;
