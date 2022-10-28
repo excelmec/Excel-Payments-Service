@@ -1,7 +1,6 @@
 import React from 'react'
 
-import '../pages.css'
-
+import './PrivacyPolicy.css'
 
 function PrivacyPolicy() {
   return (

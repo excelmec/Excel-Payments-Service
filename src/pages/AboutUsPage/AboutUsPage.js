@@ -1,6 +1,6 @@
 import React from 'react'
 
-import '../pages.css'
+import './AboutUsPage.css'
 
 function AboutUsPage() {
   return (
