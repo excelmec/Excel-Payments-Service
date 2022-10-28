@@ -27,12 +27,13 @@
   align-items: center;
   flex-wrap: wrap;
   margin-bottom: 1rem;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   font-weight: 400;
   font-family: var(--primary-font);
   color: #ffffff;
   gap: 1.5rem;
   text-decoration: none;
+  opacity: 0.8;
 }
 
 .contact_social_icon {
