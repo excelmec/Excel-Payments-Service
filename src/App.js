@@ -2,6 +2,7 @@ import { Suspense, useEffect } from 'react'
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import AOS from 'aos';
 
+import ScrollToTop from "./utils/ScrollToTop"
 import { Navbar, Footer, Loader } from "./components";
 import { LandingPage, AboutUsPage, ContactUsPage, TnC, PrivacyPolicy, Services } from './pages'
 
@@ -19,6 +20,7 @@ function App() {
     <div className="App">
       <Suspense fallback={<Loader />}>
         <BrowserRouter>
+          <ScrollToTop />
           <Navbar />
           <Routes>
             <Route path="/" element={<LandingPage />} />

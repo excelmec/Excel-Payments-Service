@@ -1,4 +1,5 @@
 import React from 'react'
+// import { Contact } from '../../components'
 
 function ContactUsPage() {
   return (
@@ -6,6 +7,7 @@ function ContactUsPage() {
       <div className='page_header'>
         <h1>Contact Us</h1>
       </div>
+      {/* <Contact /> */}
     </div>
   )
 }

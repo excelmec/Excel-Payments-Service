@@ -6,7 +6,7 @@
   top: 0;
   width: 100%;
   background: rgba(82, 40, 136, 0.1);
-  backdrop-filter: blur(10px);
+  /* backdrop-filter: blur(10px); */
   transition: .2s ease;
 }
 .navbar__main {

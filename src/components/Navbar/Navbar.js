@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import { useLocation } from 'react-router-dom'
 import Drawer from "@mui/material/Drawer"
 import { IoMenu, IoClose } from "react-icons/io5"
 import { NavHashLink as NavLink } from "react-router-hash-link"
@@ -18,16 +19,28 @@ function Navbar() {
     setDrawer(false)
   }
 
+  const location = useLocation();
   const scrollPosition = useScrollPosition()
 
-  const navStyle = {
+  // console.log(location.pathname)
+
+  const notHome = location.pathname.length > 1 ? true : false
+
+  const navStyleHome = {
     background: scrollPosition > 300 ? "#111111" : "rgba(17, 17, 17, 0.1)",
     boxShadow:
       scrollPosition > 200 ? "0px 2px 9px rgba(0, 0, 0, 0.11)" : "none",
+    backdropFilter: 'blur(10px)'
+  }
+  const navStyle = {
+    background: scrollPosition > 300 ? "#111111" : "#111111",
+    boxShadow:
+      scrollPosition > 200 ? "0px 2px 9px rgba(0, 0, 0, 0.11)" : "none",
+    backdropFilter: 'none'
   }
 
   return (
-    <div className="navbar" style={navStyle}>
+    <div className="navbar" style={notHome ? navStyle : navStyleHome}>
       <div className="navbar__main container">
         <div className="nav_logo">
         <NavLink
