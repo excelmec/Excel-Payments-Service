@@ -1,7 +1,7 @@
 import React from 'react'
 import { Contact } from '../../components'
 
-import './ContactUsPage.css'
+import '../pages.css'
 
 function ContactUsPage() {
   return (
