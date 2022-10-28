@@ -1,5 +1,5 @@
 import RobertShahAntony from "../assets/images/RobertShahAntony.jpeg";
-import SanjayDas from "../assets/images/SanjayDas.png";
+import SanjayDas from "../assets/images/SanjayDas.jpeg";
 import AsifBasheer from "../assets/images/AsifBasheer.jpeg";
 import LijilLakshman from "../assets/images/LijilLakshman.jpg";
 
@@ -14,7 +14,7 @@ export const panelistsData = [
     {
         id: 2,
         name: 'Sanjay Das',
-        designation: 'Founder, QuickPay',
+        designation: 'CEO & Founder, QuickPay',
         image: SanjayDas,
         linkedin: 'https://www.linkedin.com/in/sanjay-das-649954b5/'
     },

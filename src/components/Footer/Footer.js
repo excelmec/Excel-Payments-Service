@@ -62,7 +62,7 @@ const Footer = () => {
         <div className="footer_nav">
             <Link style={{color: 'white'}} to='about'>About Us</Link>            
             <Link style={{color: 'white'}} to='contact-us'>Contact Us</Link>            
-            <Link style={{color: 'white'}} to='services'>Services</Link>            
+            {/* <Link style={{color: 'white'}} to='services'>Services</Link>             */}
             <Link style={{color: 'white'}} to='privacy-policy'>Privacy Policy</Link>                        
             <Link style={{color: 'white'}} to='terms'>Terms & Conditions</Link>                                   
         </div>
