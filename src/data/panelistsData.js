@@ -1,6 +1,7 @@
 import RobertShahAntony from "../assets/images/RobertShahAntony.jpeg";
 import SanjayDas from "../assets/images/SanjayDas.png";
 import AsifBasheer from "../assets/images/AsifBasheer.jpeg";
+import LijilLakshman from "../assets/images/LijilLakshman.jpg";
 
 export const panelistsData = [
     {
@@ -24,11 +25,11 @@ export const panelistsData = [
         image: AsifBasheer,
         linkedin: 'https://www.linkedin.com/in/asif-basheer-319159a/'
     },
-    // {
-    //     id: 4,
-    //     name: 'Aadhil Farhan',
-    //     designation: 'Meyn aanu ser',
-    //     image: 'https://images.unsplash.com/photo-1540302110946-d9c4990478e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHBlb3BsZXxlbnwwfDF8MHx5ZWxsb3d8&auto=format&fit=crop&w=500&q=60',
-    //     linkedin: 'https://linkedin.com/in/'
-    // },
+    {
+        id: 4,
+        name: 'CA Lijil Lakshman',
+        designation: 'Co-Founder and Managing Partner, LDS & Co',
+        image: LijilLakshman,
+        linkedin: 'https://www.linkedin.com/in/calijillakshman/'
+    },
 ]
