@@ -15,7 +15,7 @@ export const scheduleData = [
         id: 3,
         time: '11:30 AM - 12:15 PM',
         title: 'Second Speaker Session',
-        description: 'Mukesh Bubna, Founder & CEO Monexo'
+        description: 'Mukesh Bubna, Founder & CEO, Monexo'
     },
     {
         id: 4,
@@ -33,7 +33,7 @@ export const scheduleData = [
         id: 6,
         time: '2:00 PM - 3:30 PM',
         title: 'Panel Discussion on the topic Cashless Society and Privacy',
-        description: 'The panel discussion will consist of the panelists sharing facts or personal experiences, express opinions, and answer audience questions.'
+        description: 'The panel discussion will consist of the panelists sharing facts or personal experiences, expressing opinions, and answering questions from the audience.'
     },
     {
         id: 7,

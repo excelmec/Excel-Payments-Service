@@ -152,5 +152,7 @@
 }
 
 @media screen and (max-width: 400px) {
-
+  .speakerCard__photo {
+    height: 280px;
+    width: 220px;  }
 }

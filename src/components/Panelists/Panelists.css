@@ -133,5 +133,12 @@
 }
 
 @media screen and (max-width: 400px) {
+  .panelistsCard {
+    width: 270px;
+  }
+
+  .panelists_container {
+    width: 100%;
+  }
 
 }

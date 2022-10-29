@@ -20,7 +20,7 @@ export const speakersData = [
     {
         id: 3,
         name: 'Mukesh Bubna',
-        designation: 'Founder & CEO Monexo',
+        designation: 'Founder & CEO, Monexo',
         image: MukeshBubna,
         linkedin: 'https://www.linkedin.com/in/mukeshbubna'
     },

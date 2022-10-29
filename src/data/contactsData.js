@@ -49,7 +49,7 @@ export const contactsData = [
     designation: "Conference and Workshops Manager (PC)",
     image: anwar,
     phone: "7306300358",
-    email: "sayyedanwar.mec@gmail.com",
+    email: "anwarsayyed80732@gmail.com",
     linkedIn: "https://www.linkedin.com/in/sayyed-anwar-89974017a/",
   },
   {
