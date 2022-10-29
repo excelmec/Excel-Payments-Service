@@ -4,7 +4,7 @@ import AOS from 'aos';
 
 import ScrollToTop from "./utils/ScrollToTop"
 import { Navbar, Footer, Loader } from "./components";
-import { LandingPage, AboutUsPage, ContactUsPage, TnC, PrivacyPolicy, Services, Success } from './pages'
+import { LandingPage, AboutUsPage, ContactUsPage, TnC, PrivacyPolicy, Services, SuccessPage } from './pages'
 
 import './App.css';
 
@@ -29,7 +29,7 @@ function App() {
             <Route path="/terms" element={<TnC />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/services" element={<Services />} />
-            <Route path="/success" element={<Success />} />
+            <Route path="/success" element={<SuccessPage />} />
             <Route path="*" element={<Navigate replace to="/" />} />
           </Routes>
           <Footer />

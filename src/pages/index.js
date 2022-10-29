@@ -6,8 +6,8 @@ const ContactUsPage = lazy(() => import('./ContactUsPage/ContactUsPage'));
 const TnC = lazy(() => import('./TnC/TnC'));
 const Services = lazy(() => import('./Services/Services'));
 const PrivacyPolicy = lazy(() => import('./PrivacyPolicy/PrivacyPolicy'));
-const Success = lazy(() => import('./Success/Success'));
+const SuccessPage = lazy(() => import('./SuccessPage/SuccessPage'));
 
 export { 
-    LandingPage, AboutUsPage, ContactUsPage, TnC, Services, PrivacyPolicy, Success
+    LandingPage, AboutUsPage, ContactUsPage, TnC, Services, PrivacyPolicy, SuccessPage
 }

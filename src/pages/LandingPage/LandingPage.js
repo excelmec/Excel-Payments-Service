@@ -7,7 +7,6 @@ import './LandingPage.css'
 function LandingPage() {
   return (
     <div className="landingPage">
-      {/* NAVBAR */}
       <Landing />
       <About />
       <Speakers />
@@ -16,7 +15,6 @@ function LandingPage() {
       {/* <Sponsors /> */}
       {/* <Startup /> */}
       <Contact />
-      {/* FOOTER */}
     </div>
   )
 }
