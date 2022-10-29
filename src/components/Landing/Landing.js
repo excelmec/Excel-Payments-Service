@@ -4,7 +4,7 @@ import "./Landing.css"
 
   
 const calculateTimeLeft = () => {
-  let difference = +new Date(`11/6/2022`) - +new Date(); // MM/DD/YYYY
+  let difference = +new Date("2022-11-06T10:00:00+05:30") - +new Date(); // MM/DD/YYYY
   let timeLeft = {};
 
   if (difference > 0) {
