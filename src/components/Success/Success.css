@@ -24,3 +24,15 @@
 .successPage__header h1 {
     font-size: 2rem;
 }
+
+@media screen and (max-width: 600px) {
+  .successPage__header h1 {
+    font-size: 1.6rem;
+}
+}
+
+@media screen and (max-width: 400px) {
+  .successPage__header h1 {
+    font-size: 1.6rem;
+}
+}
