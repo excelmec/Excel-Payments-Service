@@ -8,8 +8,10 @@ function About() {
     <div className="about">
       <div className="about__header">
         <div className="hero_card" data-aos="fade-up">
-          <FiMapPin className="hero_card_icon"/>
-          <h5>Model Engineering College, Thrikkakara</h5>
+        <a href='https://goo.gl/maps/bdiPTuiqrDzaXnBu8' target='_blank' rel="noreferrer">
+          <FiMapPin className="hero_card_icon map"/>
+        </a>
+          <h5>IMA Hall, Kaloor</h5>
         </div>
         <div className="hero_card" data-aos="fade-up">
           <FiCalendar className="hero_card_icon"/>

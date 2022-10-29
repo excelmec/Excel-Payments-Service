@@ -4,6 +4,7 @@ import sara from "../assets/images/sara.jpeg";
 import anjali from "../assets/images/anjali.jpeg";
 import anwar from "../assets/images/anwar.jpg";
 import hemanthsagar from "../assets/images/hemanthsagar.jpeg";
+import faiza from "../assets/images/faiza.jpeg";
 
 export const contactsData = [
   {
@@ -56,8 +57,17 @@ export const contactsData = [
     name: "Aadhil Farhan",
     designation: "Event Head",
     image: aadhil,
-    phone: "",
-    email: "sebindavis.mec@gmail.com",
-    linkedIn: "https://www.linkedin.com/in/",
+    phone: "9400814329",
+    email: "aadhilfarhan.mec@gmail.com",
+    linkedIn: "https://www.linkedin.com/in/aadhil-farhan/",
+  },
+  {
+    id: 7,
+    name: "Faiza S Rahman",
+    designation: "Event Head",
+    image: faiza,
+    phone: "8547864728",
+    email: "faizasrahman@gmail.com",
+    linkedIn: "https://www.linkedin.com/in/faiza-s-rahman-8a5643203/",
   },
 ]

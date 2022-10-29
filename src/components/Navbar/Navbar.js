@@ -93,8 +93,9 @@ function Navbar() {
             Contact Us
           </NavLink>
         </div>
-
-        <button className="nav_btn">Register</button>
+        <a href='https://rzp.io/l/finnext' target='_blank' rel="noreferrer">
+          <button className="nav_btn">Register</button>
+        </a>
 
         <div className="nav_hamburger" onClick={handleDrawerOpen}>
           <IoMenu className="nam_menu_icon" />

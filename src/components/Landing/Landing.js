@@ -37,7 +37,9 @@ function Landing() {
       <div className="landing__container">      
         <div className="landing__left">
           <h2 className="landing__header" data-aos="zoom-in-right">Explore Finance,<br /> Tech and Beyond</h2>
-          <button className="landing__btn" data-aos="zoom-in-right">Register</button>
+          <a href='https://rzp.io/l/finnext' target='_blank' rel="noreferrer">
+            <button className="landing__btn" data-aos="zoom-in-right">Register</button>
+          </a>
         </div>
         <div className="landing__right">
           <h1>FinNext</h1>

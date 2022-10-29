@@ -1,21 +1,21 @@
 import LijilLakshman from "../assets/images/LijilLakshman.jpg";
-import AsifBasheer from "../assets/images/AsifBasheer.jpeg";
 import MukeshBubna from "../assets/images/MukeshBubna.jpeg";
+import anas from "../assets/images/anas.jpeg";
 
 export const speakersData = [
     {
         id: 1,
+        name: 'Anas Rahman Junaid',
+        designation: 'Founder and MD, Hurun India',
+        image: anas,
+        linkedin: 'https://www.linkedin.com/in/anasrahmanjunaid'
+    },
+    {
+        id: 2,
         name: 'CA Lijil Lakshman',
         designation: 'Co-Founder and Managing Partner, LDS & Co',
         image: LijilLakshman,
         linkedin: 'https://www.linkedin.com/in/calijillakshman/'
-    },
-    {
-        id: 2,
-        name: 'Asif Basheer',
-        designation: 'MD, Chillar Payment Solutions Pvt Ltd',
-        image: AsifBasheer,
-        linkedin: 'https://www.linkedin.com/in/asif-basheer-319159a/'
     },
     {
         id: 3,

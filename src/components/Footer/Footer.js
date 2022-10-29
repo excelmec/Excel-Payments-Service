@@ -1,7 +1,7 @@
 import React from "react"
 import { FiFacebook, FiLinkedin, FiInstagram, FiTwitter } from "react-icons/fi"
 import { FaHeart } from "react-icons/fa"
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 
 import "./Footer.css"
@@ -59,13 +59,13 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="footer_nav">
+        {/* <div className="footer_nav">
             <Link style={{color: 'white'}} to='about'>About Us</Link>            
             <Link style={{color: 'white'}} to='contact-us'>Contact Us</Link>            
-            {/* <Link style={{color: 'white'}} to='services'>Services</Link>             */}
+            <Link style={{color: 'white'}} to='services'>Services</Link>            
             <Link style={{color: 'white'}} to='privacy-policy'>Privacy Policy</Link>                        
             <Link style={{color: 'white'}} to='terms'>Terms & Conditions</Link>                                   
-        </div>
+        </div> */}
         <div className="footer-madewith">
           Made with{" "}
           <span>

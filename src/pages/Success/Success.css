@@ -1,0 +1,26 @@
+.success {
+    min-height: 100vh;
+    background-image: url("../../assets/png/desktop_bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    color: #ffffff;
+    font-family: var(--primary-font);
+  }
+
+  .successPage__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.successPage__header h1 {
+    font-size: 2rem;
+}
