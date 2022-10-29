@@ -18,13 +18,13 @@ export class MapContainer extends Component {
                             lat: 9.988386978962652,
                             lng: 76.30134426199614
                         }
-                    }
-                    className='map'
+                    }   
                 >
                     <Marker
                         title={'IMA Hall, Kaloor'}
                         name={'IMA Hall'}
                         position={{lat: 9.988386978962652, lng: 76.30134426199614}}
+                        
                     />
                 </Map>
             </div>

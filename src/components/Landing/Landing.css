@@ -1,5 +1,6 @@
 .landing {
   min-height: 100vh;
+  background-color: var(--primary-color);
   background-image: url("../../assets/png/desktop_bg.png");
   background-position: center;
   background-repeat: no-repeat;
