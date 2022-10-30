@@ -13,44 +13,44 @@ export const scheduleData = [
     },
     {
         id: 3,
-        time: '11:30 AM - 12:15 PM',
+        time: '11:20 AM - 12:05 PM',
         title: 'Second Speaker Session',
         description: 'Mukesh Bubna, Founder & CEO, Monexo'
     },
     {
         id: 4,
-        time: '12:30 PM - 1:15 PM',
+        time: '12:10 PM - 12:55 PM',
         title: 'Third Speaker Session',
-        description: 'Lijil Lakshman, CA, Co-Founder and Managing Partner of LDS & Co. '
+        description: 'Kenz Milliondots - Founder, Milliondots Edu'
     },
     {
         id: 5,
-        time: '1:15 PM - 1:45 PM',
+        time: '1:00 PM - 1:45 PM',
         title: 'Lunch Break',
         description: ''
     },
     {
         id: 6,
-        time: '2:00 PM - 3:30 PM',
+        time: '1:45 PM - 2:30 PM',
+        title: 'Fourth Speaker Session',
+        description: 'Lijil Lakshman, CA, Co-Founder and Managing Partner of LDS & Co. '
+    },
+    {
+        id: 7,
+        time: '2:40 PM - 4:10 PM',
         title: 'Panel Discussion on the topic Cashless Society and Privacy',
         description: 'The panel discussion will consist of the panelists sharing facts or personal experiences, expressing opinions, and answering questions from the audience.'
     },
     {
-        id: 7,
-        time: '3:30 PM - 4:00 PM',
+        id: 8,
+        time: '4:10 PM - 4:30 PM',
         title: 'Flash Talks',
         description: ''
     },
     {
-        id: 8,
-        time: '4:00 PM - 4:15 PM',
-        title: 'Vote of Thanks',
-        description: 'Vote of thanks from the Chairperson and Organizers'
-    },
-    {
         id: 9,
-        time: '4:15 PM - 5:00 PM',
-        title: 'Ice breaker and Snacks',
-        description: ''
+        time: '4:30 PM - 5:00 PM',
+        title: 'Vote of Thanks and Snacks',
+        description: 'Vote of thanks from the Chairperson and Organizers'
     },
 ]

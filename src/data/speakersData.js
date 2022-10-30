@@ -14,7 +14,7 @@ export const speakersData = [
     {
         id: 2,
         name: 'Kenz Milliondots',
-        designation: 'Founder, Milliondots edu',
+        designation: 'Founder, Milliondots Edu',
         image: kenz,
         linkedin: 'https://www.linkedin.com/in/kenzmilliondots'
     },
