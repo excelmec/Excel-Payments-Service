@@ -14,6 +14,13 @@ const calculateTimeLeft = () => {
         minutes: Math.floor((difference / 1000 / 60) % 60),
         seconds: Math.floor((difference / 1000) % 60),
      };
+  } else {
+    timeLeft = {
+      days: 0,
+      hours: 0,
+      minutes: 0,
+      seconds: 0,
+   };
   }
 
   return timeLeft;
@@ -37,8 +44,8 @@ function Landing() {
       <div className="landing__container">      
         <div className="landing__left">
           <h2 className="landing__header" data-aos="zoom-in-right">Explore Finance,<br /> Tech and Beyond</h2>
-          <a href='https://rzp.io/l/finnext' target='_blank' rel="noreferrer">
-            <button className="landing__btn" data-aos="zoom-in-right">Register</button>
+          <a href='/'>
+            <button className="landing__btn" data-aos="zoom-in-right">Registration Closed</button>
           </a>
         </div>
         <div className="landing__right">

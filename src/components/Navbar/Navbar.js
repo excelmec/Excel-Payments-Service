@@ -81,21 +81,15 @@ function Navbar() {
             Schedule
           </NavLink>
           <NavLink
-            to="/#sponsors"
-            className="nav__link"
-          >
-            Sponsors
-          </NavLink>
-          <NavLink
             to="/#contact"
             className="nav__link"
           >
             Contact Us
           </NavLink>
         </div>
-        <a href='https://rzp.io/l/finnext' target='_blank' rel="noreferrer">
+        {/* <a href='https://rzp.io/l/finnext' target='_blank' rel="noreferrer">
           <button className="nav_btn">Register</button>
-        </a>
+        </a> */}
 
         <div className="nav_hamburger" onClick={handleDrawerOpen}>
           <IoMenu className="nam_menu_icon" />
@@ -161,15 +155,6 @@ function Navbar() {
               className="navmob__link"
             >
               Schedule
-            </NavLink>
-            <NavLink
-              data-aos="fade-right"
-              data-aos-duration="1200"
-              to="/#sponsors"
-              onClick={handleDrawerClose}
-              className="navmob__link"
-            >
-              Sponsors
             </NavLink>
             <NavLink
               data-aos="fade-right"
