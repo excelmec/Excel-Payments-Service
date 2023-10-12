@@ -1,12 +1,9 @@
 import React, { useState } from 'react';
 import './frontpage.css';
 import Main from './Main';
-export default function Frontpage(){
-    const [showMain, setShowMain] = useState(false);
+export default function Frontpage({ showMain, handleRegisterClick }){
+    
 
-    const handleRegisterClick = () => {
-        setShowMain(true);
-    }
     return(
         <div className='container'>
             <h1>UNMASKED</h1>

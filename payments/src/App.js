@@ -9,10 +9,13 @@ function App() {
     setShowMain(true);
   }
 
+  const navigateToMain = () => {
+    setShowMain(true);
+  }
+
   return (
     <div className="App">
-      {showMain ? <Main /> : <Frontpage />}
-      {!showMain && <button className='register' onClick={handleRegisterClick}>REGISTER</button>}
+      {showMain ? <Main /> : <Frontpage showMain={showMain} handleRegisterClick={handleRegisterClick} />}
     </div>
   );
 }
