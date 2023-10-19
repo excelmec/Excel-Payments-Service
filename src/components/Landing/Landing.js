@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from "react"
+import Main from '../Main';
+import { useNavigate } from 'react-router-dom';
+import "./Landing.css"
 
 import "./Landing.css"
 
@@ -26,7 +29,11 @@ const calculateTimeLeft = () => {
   return timeLeft;
 };
 
-function Landing() {
+function Landing({ showMain}) {
+  const navigate = useNavigate();
+  const handleRegisterClick = () => {
+    navigate('/main');
+  }
 
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
@@ -44,9 +51,8 @@ function Landing() {
       <div className="landing__container">      
         <div className="landing__left">
           <h2 className="landing__header" data-aos="zoom-in-right">Explore Finance,<br /> Tech and Beyond</h2>
-          <a href='/'>
-            <button className="landing__btn" data-aos="zoom-in-right">Registration Closed</button>
-          </a>
+          {!showMain && <button className='register' onClick={handleRegisterClick}>REGISTER</button>}
+            {showMain && <Main />}
         </div>
         <div className="landing__right">
           <h1>FinNext</h1>

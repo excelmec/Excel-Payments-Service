@@ -13,7 +13,20 @@
   position: relative;
   overflow: hidden;
 }
+.register {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #def22a; /* Blue color, you can change it to your preference */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
 
+.register:hover {
+  background-color: #0b0d0f; /* Darker shade of blue on hover */
+}
 
 .landing__container {
   height: 100%;
